@@ -8,7 +8,7 @@
   text-align: center;
 
   color: var(--color-text);
-  background: linear-gradient(rgba(0,0,0,0.88), rgba(0,0,0,0.88)), url('../../assets/images/marvel-comics.jpg') no-repeat top center;
+  background: linear-gradient(rgba(0,0,0,0.88), rgba(0,0,0,0.88)), url('../../assets/images/background-marvel-home.jpg') no-repeat top center;
   background-size: cover;
 }
 

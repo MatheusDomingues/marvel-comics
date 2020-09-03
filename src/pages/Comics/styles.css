@@ -1,0 +1,8 @@
+#page-comics {
+  width: 100vw;
+  height: 100vh;
+
+  color: var(--color-text);
+  background: linear-gradient(rgba(0,0,0,0.88), rgba(0,0,0,0.88)), url('../../assets/images/background-marvel-comics.jpg') no-repeat top center;
+  background-size: cover;
+}
