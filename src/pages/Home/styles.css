@@ -1,0 +1,82 @@
+#page-home {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: var(--color-text);
+  background: linear-gradient(rgba(0,0,0,0.88), rgba(0,0,0,0.88)), url('../../assets/images/marvel-comics.jpg') no-repeat top center;
+  background-size: cover;
+}
+
+.logo-container img {
+  height: 22rem;
+}
+
+.text-container {
+  margin: 10rem 0 6rem;
+}
+
+.text-container h1 {
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 5.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.text-container h3 {
+  font-size: 2.8rem;
+  line-height: 4.6rem;
+}
+
+.button-container {
+  margin-top: 3rem;
+}
+
+.button-container a {
+  text-decoration: none;
+  display: inline-block;
+
+  width: 80vw;
+  max-width: 300px;
+  
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 5.8rem;
+
+  border-radius: 0.8rem;
+  box-shadow: 1px 1px 2px black;
+
+  color: var(--color-text);
+  background-color: var(--color-primary);
+}
+
+@media (min-width: 1100px) {
+  #page-home-content {
+    max-width: 1100px;
+  }
+
+  .logo-container img {
+    height: 28rem;
+  }
+
+  .text-container h1 {
+    font-size: 4.8rem;
+    line-height: 6.4rem;
+  }
+
+  .text-container h3 {
+    font-size: 3.4rem;
+    line-height: 4.8rem;
+  }
+
+  .button-container a {
+    font-size: 3.4rem;
+    line-height: 6.4rem;
+
+    max-width: 380px;
+  }
+}

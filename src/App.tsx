@@ -1,20 +1,10 @@
-import React, { useEffect, useState } from 'react';
-
-import api from './services/api';
+import React from 'react';
 
 import Routes from './routes';
 
-function App() {
-  const [posts, setPosts] = useState([])
-  useEffect(() => {
-    async function loadPosts() {
-      const response = await api.get('/')
-      setPosts(response.data)
-      console.log(response.data)
-    }
-    loadPosts()
-  }, [])
+import './assets/styles/global.css';
 
+function App() {
   return (
     <Routes />
   );
