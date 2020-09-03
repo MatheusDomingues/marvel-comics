@@ -2,6 +2,8 @@
   background-color: var(--color-background);
   width: 100vw;
   height: 18vh;
+  position: absolute;
+  bottom: 0;
   box-shadow: 1px 1px 3px black;
 }
 
@@ -27,6 +29,10 @@
   font-weight: bold;
   transition: 200ms;
   position: relative;
+}
+
+.page-footer .footer-content p a:hover {
+  color: var(--color-primary-light);
 }
 
 .page-footer .footer-content p a::after {

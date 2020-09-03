@@ -53,7 +53,7 @@
   transition: width 300ms ease-in-out;
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 800px) {
   .page-header .top-bar-container ul li {
     margin: 0;
   }
