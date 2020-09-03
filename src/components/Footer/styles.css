@@ -4,7 +4,6 @@
   height: 18vh;
   position: absolute;
   bottom: 0;
-  box-shadow: 1px 1px 3px black;
 }
 
 .page-footer .footer-content {
@@ -51,20 +50,16 @@
 }
 
 @media (min-width: 800px) {
-  .page-footer {
-    height: 15vh;
-  }
-
   .page-footer .footer-content {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     max-width: 600px;
-    margin: 0 auto;
+    margin: 10px auto 0;
   }
 
   .page-footer .footer-content img {
-    height: 6rem;
+    height: 7rem;
   }
 
   .page-footer .footer-content p, a {
