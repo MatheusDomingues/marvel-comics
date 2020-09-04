@@ -1,13 +1,24 @@
+import React from 'react';
+
 import axios from 'axios';
 
-// const timeStamp = '1599001880';
-// const apiKey =  '416040b063fa3cd6a75c38533064e666';
-// const md5 = 'a48afa8616b23bd3c1ef367f7bbe9c66';
+import md5 from 'js-md5';
 
-const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL
-});
+const publicKey =  '416040b063fa3cd6a75c38533064e666';
+const privateKey = '06bfb857ed2117893b1d472534472dedd6f225e1';
 
-// http://gateway.marvel.com/v1/public/characters?ts=1599001880&apikey=416040b063fa3cd6a75c38533064e666&hash=a48afa8616b23bd3c1ef367f7bbe9c66
+export default class api extends React.Component {
+  state = {
+    comics: []
+  };
 
-export default api;
+  async componentDidMount() {
+    const timestamp = Number(new Date());
+    const hash = md5.create();
+    hash.update(timestamp + privateKey + publicKey);
+
+    axios.create({
+      baseURL: `http://gateway.marvel.com/v1/public/characters?ts=${timestamp}&apikey=${publicKey}&hash=${hash}&limit=3`
+    });
+  }
+};
