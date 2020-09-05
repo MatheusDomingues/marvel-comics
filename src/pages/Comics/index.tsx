@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import md5 from 'js-md5';
 
+import md5 from 'js-md5';
 import axios from 'axios';
 
 import PageHeader from '../../components/PageHeader';
@@ -35,7 +35,7 @@ export default class Comics extends React.Component {
       <div id="page-comics">
         <PageHeader />
         <div id="page-comics-content" className="container">
-
+          
         </div>
         <Footer />
       </div>

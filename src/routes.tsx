@@ -3,7 +3,7 @@ import { BrowserRouter, Route} from 'react-router-dom';
 
 import Home from './pages/Home';
 import Comics from './pages/Comics';
-import Reader from './pages/Reader';
+import Read from './pages/Read';
 import Details from './pages/Details';
 
 function Routes() {
@@ -11,7 +11,7 @@ function Routes() {
     <BrowserRouter>
       <Route path="/" exact component={Home} />
       <Route path="/comics" component={Comics} />
-      <Route path="/reader" component={Reader} />
+      <Route path="/read" component={Read} />
       <Route path="/details" component={Details} />
     </BrowserRouter>
   );

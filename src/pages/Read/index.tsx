@@ -3,11 +3,11 @@ import React from 'react';
 import PageHeader from '../../components/PageHeader';
 import Footer from '../../components/Footer';
 
-function Details() {
+function Read() {
   return (
-    <div id="page-details">
+    <div id="page-read">
       <PageHeader />
-      <div id="page-details-content" className="container">
+      <div id="page-read-content" className="container">
         
       </div>
       <Footer />
@@ -15,4 +15,4 @@ function Details() {
   );
 };
 
-export default Details;
+export default Read;
