@@ -1,9 +1,0 @@
-#page-details {
-  width: 100vw;
-  height: 100vh;
-
-  color: var(--color-text);
-  background-clip: var(--color-background);
-
-  position: relative;
-}

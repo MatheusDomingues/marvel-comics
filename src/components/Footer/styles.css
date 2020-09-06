@@ -1,9 +1,7 @@
 .page-footer {
   background-color: var(--color-background);
-  width: 100vw;
-  height: 18vh;
-  position: absolute;
-  bottom: 0;
+  width: 100%;
+  height: 16vh;
 }
 
 .page-footer .footer-content {
