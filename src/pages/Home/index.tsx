@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import Footer from '../../components/Footer';
+
 import marvelLogo from '../../assets/images/marvel-logo.png';
 
 import './styles.css';
@@ -22,6 +24,7 @@ function Home() {
           </Link>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

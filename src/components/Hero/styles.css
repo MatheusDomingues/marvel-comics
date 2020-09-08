@@ -1,0 +1,20 @@
+/* Área do Herói */
+.hero-item {
+  margin: 30px auto;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px 40px;
+  width: 90%;
+  border-radius: 8px;
+}
+
+.hero-item .hero-name {
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.hero-item .hero-name h2 {
+  font-weight: bold;
+  font-size: 2.8rem;
+  max-width: 50rem;
+  cursor: pointer;
+}
