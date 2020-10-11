@@ -12,6 +12,7 @@ Entre elas, as libs:
 
 - react-router-dom
 - react-slick
+- react-dom
 - js-md5
 
 ### Tecnologias aprendidas
@@ -35,10 +36,28 @@ Depois de ter uma ideia de fazer um Carrossel, pesquisei meios para fazê-lo mai
 
 Para a utilização da API Marvel é necessário ter um Hash entre Keys e Timestamp. E depois de algumas pesquisas em como autimatizar isso, encontrei esta Lib que facilitou muito minha aplicação.
 
-## Dificuldades
+### Instalação
 
-Tive muita dificuldade em consumir a API da Marvel pois nunca tinha feito, e por ela sem um pouco mais complicada que o normal, tive que pedir muita ajuda, e pesquisar bastante para entender como fazer e como funciona por trás da interface.
+Você precisa ter [Node.js](https://nodejs.org) em sua máquina para clonar este repositório:
 
-Busquei ajuda em comunidades, amigos, grupos, videos, documentação... E encontrei o que precisava, a ajuda necessária veio da comunidade de Devs da Rocketseat que abriram meus olhos, e me mostraram como é por trás de uma API.
+```sh
+$ git clone https://github.com/MatheusDomingues/marvel-comics.git
+```
 
-E também uma certa dificuldade em utilizar o Typescript, atrasando o processo de desenvolvimento, pois é a primeira aplicação que tento desenvolver utilizando-o. Decidi utiliza-lo para meio de estudo e também desenvolver prática.
+Depois disso, acesse a pasta da aplicação e execute o seguinte comando.
+
+```sh
+$ yarn install # ou npm install
+```
+
+### Executando a aplicação
+
+Estando na pasta da aplicação, execute o comando abaixo para inicializar o servidor.
+
+```sh
+$ yarn start # ou npm start
+```
+
+Após executar o servidor, irá direciona-lo automaticamente ao browser para a página da aplicação.
+
+Mas caso não seja direcionado, basta abrir seu browser e acessar 'http://localhost:3000/'
